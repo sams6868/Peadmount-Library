@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* begin the nav bars */
+
+.header {
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-image: url("./images/Rectangle.png");
+    background-repeat: no-repeat;
+    top: 1.9em;
+}
+
+.top-nav-left {
+    position: relative;
+    margin-left: 2.2em; 
+    margin-top: -1.4em;
+}
+
+.top-nav-right {
+    position: absolute;
+    right: 4em;
+    margin-right: 0em;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 4em;
+}
+
+.top-links {
+    display: flex;
+    align-items: center;
+    gap: .8em;
+    height: 2em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.right-navigation {
+    position: absolute;
+    top: 10.55em;
+    left: 2.2em;
+    width: fit-content;
+    /* the following helps see where the actual box is */
+    /* background-color: hotpink; */
+}
+
+table a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Mate';
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+table td{
+    padding: .39em 0em;
+}
+
+.lower-links {
+    display: flex;
+    column-gap: 24px;
+    position: absolute;
+    list-style: none;
+    font-style: 'Inter';
+    font-weight: 400;
+    font-size: 1.2em;
+    right: 5.2em;
+    top: 5.9em;
+    /* background-color: hotpink; */ /* use to locate on page */
+}
+.input-fill {
+    border-radius: 5px;
+    background: #D9D9D9;
+    padding: 0em .2em 0em .3em;
+    border-style: none;
+}
+
+.title-isbn { /* had to add the class tag and items following box-shadow bc only the title and isbn have gradient */ 
+    box-shadow: inset 0px .3em .3em rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background: #D9D9D9;
+    border-style: none;
+    padding: 0em .2em 0em .3em;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* for Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11*/
+    color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge*/
+    color: black;
+}
+
+
+.lower-link-dropdowns{
+    display: flex;
+}
+
+.arrow {
+    position: relative;
+    right: 1.1em;
+    top: -.15em;
+    width: .5em;
+    height: .5em;
+    vertical-align: middle;
+    display: inline-block;
+    border-left: solid black;
+    border-bottom: solid black;
+    transform: rotate(-45deg);
+}
+
+.search-cat {
+    font-family: 'Inter';
+    font-weight: 700;
+    position: relative;
+    left: .7em;
+}
+
+/* end nav bars */
+
+/* the following is used for lining things up on a page */
+/* .line {
+    position: absolute;
+    color: green;
+    width: 100%;
+    top: 7.8em;
+} */
+
+/* begin homepage content */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.hp-cards {
+    position: absolute;
+    top: 14em;
+    left: 15em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    column-gap: 2em;
+    row-gap: 2em;
+    margin-left: 2em;
+    margin-right: 3em;
+    padding-bottom: 3em;
+}
+
+/* .hp-card-stack {
+    border: 3px solid hotpink;
+} */
+
+.hp-card-img {
+    width: 100%;
+}
+
+.stacked {
+    display: grid;
+}
+
+.stacked > * {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+button {
+    position: relative;
+    top: 55%;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+    background-color:#742C2C;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    color: #FFFFFF;
+    border: 1px solid rgba(12, 48, 64, 0.22);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, .025);
+}
+
+.hp-title {
+    font-family: 'Mate';
+    font-weight: 400;
+    font-size: 3.15em;
+}
+
+.hp-p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/* end homepage content */
+
