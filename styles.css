@@ -175,7 +175,7 @@ img {
     grid-row: 1/2;
 }
 
-button {
+.button {
     position: relative;
     top: 55%;
     left: 10%;
@@ -207,4 +207,84 @@ button {
 }
 
 /* end homepage content */
+
+/* begin sign-up page */
+
+.top-signup {
+    font-size: 2em;
+    text-align: end;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #742C2C;
+}
+
+.topsignup-bottom {
+    color: #ED907F;
+}
+
+.signup-right {
+    font-size: 2em;
+    font-family: 'Inter';
+    font-weight: 700;
+    padding-bottom: 1.8em;
+    color: #984F1F;
+}
+
+.signup {
+    position: absolute;
+    top: 13em;
+    left: 18em;
+    display: grid;
+    grid-template-rows: 9fr 50fr;
+    margin-left: 2em;
+    margin-right: 1em;
+    padding-bottom: 3em;
+}
+
+.signup-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1.1fr; 
+    justify-content: space-between;
+}
+
+.signup-left {
+    padding-top: 1em;
+    padding-right: 1em;
+}
+
+.sign-up-img {
+    max-width: 80%;
+    max-height: auto;
+}
+
+.form-control {
+    font-size: 1.1em;
+    font-family: 'Inter';
+    font-weight: 400;
+    padding-bottom: 1.3em;
+}
+
+.input-fill-2 {
+    box-shadow: inset 0px .3em .3em rgba(0, 0, 0, 0.25);
+    background: #D9D9D9;
+    border-style: none;
+    height: 2em;
+}
+
+.signup-bottom {
+    display: flex;
+    font-size: .55em;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.reg-button {
+    font-size: 2em;
+    color: #FFFFFF;
+    background-color: #067C44;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .025);
+    border-style: none;
+    border-radius: 17px;
+    padding: .3em .9em .3em .5em;
+}
 
