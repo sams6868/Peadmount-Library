@@ -288,3 +288,45 @@ img {
     padding: .3em .9em .3em .5em;
 }
 
+/* end sign up page */
+
+/* begin about page */
+
+.about-grid {
+    position: absolute;
+    top: 9.5em;
+    left: 17em;
+    padding-right: 1.5em;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-row: 1fr 1fr;
+    gap: 2em;
+}
+
+.about-page-left {
+    display: grid;
+    gap: 2em;
+}
+
+.about-page-right {
+    display: grid;
+    gap: 2em;
+}
+
+
+.about-p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.17em;
+}
+
+.about-card-title {
+    font-family: 'Imbue', serif;
+    font-size: 2.3em;
+    padding-bottom: .8em;
+}
+
+/* end about page */
