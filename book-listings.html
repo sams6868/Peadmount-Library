@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mate&display=swap" rel="stylesheet">
+    <title>Peadmount Library</title>
+    <link rel="shortcut icon" href="./images/Fav-icon.svg">
+</head>
+<body>
+    <!-- begin nav bars -->
+    <div class="header">
+        <div class="top-nav-left">
+            <img class="library-logo" src="./images/Peadmount-Logo.png" alt="Peadmount Library Logo">
+        </div>
+        <div class="top-nav-right">
+            <div class="top-links">
+                <li>Location</li>
+                <li>Events</li>
+                <li>About US</li>
+                <li>Sign-in</li>
+            </div>
+            <div class="search-img"><img class="search img" src="./images/Search.png" alt="Search icon"></div>
+        </div>
+    </div>
+    <div class="lower-header">
+        <div class="lower-links">
+            <li class="search-cat">Search Catalog</li>
+                    <li>
+                        <input class="title-isbn" class="input-fill" type="text" id="Title" placeholder="Title" size="13">
+                    </li>
+                    <li>
+                        <input class="title-isbn" class="input-fill" type="text" id="ISBN" placeholder="ISBN" size="13">
+                    </li>
+            <div class="lower-link-dropdowns">
+                <li>
+                    <input class="input-fill" type="text" list="Format" placeholder="Format" size="6">
+                    <datalist id="Format">
+                        <option value="Hardback"></option>
+                        <option value="Paperback"></option>
+                        <option value="Oversized"></option>
+                        <option value="Miniature"></option>
+                        <option value="Photo"></option>
+                        <option value="Children's"></option>
+                        <option value="Kindle/Digial"></option>
+                        <option value="Audio"></option>
+                    </datalist>
+                    <span class="arrow"></span>
+                </li>
+                <li>
+                    <input class="input-fill" type="text" list="Genre-list" placeholder="Genre" size="5">
+                    <datalist id="Genre-list">
+                        <option value="Poetry"></option>
+                        <option value="Fiction"></option>
+                        <option value="Non-Fiction"></option>
+                        <option value="Drama"></option>
+                        <option value="Prose"></option>
+                    </datalist>
+                    <span class="arrow"></span>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="right-navigation">
+        <table class="right-nav-table">
+            <tr>
+                <td class="a"><a href="#">Ask Us</a></td>
+            </tr>
+            <tr>
+                <td class="b"><a href="#">Reading Challenge</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Catalog</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Bookcamp</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">E-Book</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">STEM</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Online Resources</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Volunteer</a></td>
+            </tr>
+        </table>
+    </div>
+    <!-- end nav bars -->
+    <!-- <span><hr class="line"></span> -->
+    <booklistings>
+        <div class="book-listings">
+            <div class="book-listings-left">
+                <img class="booking-img-left" src="./images/booklistings/booklistings-left.png" alt="Friends and Strangers book cover">
+                <div class="availibility">
+                    <button class="not-available">Not Available</button>
+                    <button class="place-hold">Place Hold</button>
+                </div>
+            </div>
+            <div class="book-listings-right">
+                <div class="booklistings-right-1">
+                    <p class="booklistings-header" >There are 6 readers in line for this title, check out these similar titles that are currently available.</p>
+                </div>
+                <div class="booklistings-right-2">
+                    <img src="./images/booklistings/booklistings-top-right.png" alt="several book covers">
+                </div>
+                <div class="booklistings-right-3">
+                    <button class="check-out">Check Out</button>
+                    <button class="check-out">Check Out</button>
+                    <button class="check-out">Check Out</button>
+                    <button class="check-out">Check Out</button>
+                </div>
+                <div class="booklistings-right-4">
+                    <img src="./images/booklistings/booklistings-bottom-right.png" alt="several book covers">
+                </div>
+                <div class="booklistings-right-3">
+                    <button class="check-out">Check Out</button>
+                    <button class="check-out">Check Out</button>
+                    <button class="check-out">Check Out</button>
+                    <button class="check-out">Check Out</button>
+                </div>
+                <div class="booklistings-right-5">
+                    <div class="pagination">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </booklistings>
+</body>
+</html>

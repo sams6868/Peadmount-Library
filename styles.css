@@ -330,3 +330,98 @@ img {
 }
 
 /* end about page */
+
+/* begin book listings page */
+
+booklistings {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.book-listings {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 2em;
+    position: absolute;
+    top: 10em;
+    left: 18em;
+    padding-right: 3em;
+}
+
+.book-listings-left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.8fr 1fr;
+}
+
+.booking-img-left {
+    align-self: end;
+}
+
+.availibility {
+    display: inline-block;
+    margin: 0em 3em 0em 3em;
+}
+
+.not-available {
+    width: 8em;
+    margin-top: 1.5em;
+    box-shadow: inset 0px .3em .3em rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background: #D9D9D9;
+    border-style: none;
+    padding: .1em 0em .1em 0em;
+    font-size: 1em;
+}
+
+.place-hold {
+    width: 8em;
+    margin-top: 1.5em;
+    color: #FFFFFF;
+    background-color: #067C44;
+    border-style: none;
+    border-radius: 3px;
+    padding: .1em 0em .1em 0em;
+    font-size: 1em;
+}
+
+.check-out {
+    width: 8em;
+    color: #FFFFFF;
+    background-color: #067C44;
+    border-style: none;
+    border-radius: 3px;
+    padding: .1em 0em .1em 0em;
+    font-size: 1em;
+}
+
+.book-listings-right {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.booklistings-right-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.booklistings-right-3 {
+    display: flex;
+    justify-content: space-around;
+    padding: .3em 0em 1em 0em;
+}
+
+.booklistings-right-5 {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 2em;
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+}
+
+/* end book listing page */
+
