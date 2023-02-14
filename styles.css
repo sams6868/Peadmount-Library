@@ -425,3 +425,84 @@ booklistings {
 
 /* end book listing page */
 
+/* begin book description page */
+
+book-description {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.book-description-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5em;
+    position: absolute;
+    top: 10em;
+    left: 20em;
+    margin-right: 15em;
+}
+
+.description-grid-right {
+    display: grid;
+    grid-template-rows: .7fr 1fr 1fr;
+    row-gap: 0em;
+}
+
+.description-table {
+    width: 100%;
+}
+
+.description-titles {
+    padding-bottom: .6em;
+}
+
+.description-bottom-p {
+    padding-bottom: 2em;
+}
+
+.description-authors {
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    padding: .5em 0em .5em 0em;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color: orange;
+}
+
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+}
+
+
+.check-out-description {
+    color: #FFFFFF;
+    background-color: #067C44;
+    border-style: none;
+    border-radius: 10px;
+    padding: .3em 1em .3em 1em;
+    font-size: 1em;
+}
+
+.button-description {
+    display: flex;
+    justify-content: center;
+}
+
+/* end description page */
