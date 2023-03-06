@@ -130,6 +130,88 @@ table td{
 
 /* end nav bars */
 
+@media only screen and (min-width: 901px) and (max-width: 1380px) {
+    table a {
+        font-size: 1.3em;
+        text-decoration: none;
+        color: black;
+        font-family: 'Mate';
+        font-style: normal;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 747px)  {
+    .header {
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-image: url("./images/Rectangle.png");
+        background-repeat: no-repeat;
+        top: 1.9em;
+    }
+    
+    .lower-links {
+        display: flex;
+        column-gap: 24px;
+        position: absolute;
+        list-style: none;
+        font-style: 'Inter';
+        font-weight: 400;
+        font-size: 1.2em;
+        right: 5.2em;
+        top: 6.9em;
+        /* background-color: hotpink; */ /* use to locate on page */
+    }
+    
+    table a {
+        font-size: 1.2em;
+        text-decoration: none;
+        color: black;
+        font-family: 'Mate';
+        font-style: normal;
+    }
+
+      .right-navigation {
+        position: absolute;
+        top: 10.55em;
+        left: 1.2em;
+        width: fit-content;
+        /* the following helps see where the actual box is */
+        /* background-color: hotpink; */
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    
+    .header {
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-image: url("./images/Rectangle.png");
+        background-repeat: no-repeat;
+        top: 1.9em;
+    }
+
+    .search-img {
+        display: block;
+        position: absolute;
+        right: 0em;
+        margin-right: 0em;
+    }
+
+    .top-links {
+        visibility: hidden;
+    }
+    
+    .lower-links {
+        display: none;
+    }
+
+    .right-navigation {
+        display: none;
+    }
+
+}
 /* the following is used for lining things up on a page */
 /* .line {
     position: absolute;
@@ -205,6 +287,126 @@ img {
     font-weight: 400;
     font-size: 1em;
 }
+
+@media only screen and (min-width: 901px) and (max-width: 1380px) {
+    .hp-cards {
+        position: absolute;
+        top: 14em;
+        left: 13em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 2em;
+        margin-left: 2em;
+        margin-right: 3em;
+        padding-bottom: 3em;
+    }
+    
+    .hp-title {
+        font-family: 'Mate';
+        font-weight: 400;
+        font-size: 2em;
+    }
+
+    .hp-p {
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: .875em;
+    }
+
+    .button {
+        position: relative;
+        top: 55%;
+        left: 10%;
+        width: 80%;
+        height: 20%;
+        background-color:#742C2C;
+        border-style: none;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        color: #FFFFFF;
+        border: 1px solid rgba(12, 48, 64, 0.22);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, .025);
+    }
+}
+
+@media only screen and (min-width: 747px) and (max-width: 900px) {
+    .hp-cards {
+        position: absolute;
+        top: 14em;
+        left: 11em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 2em;
+        margin-left: 2em;
+        margin-right: 3em;
+        padding-bottom: 3em;
+    }
+
+
+    .button {
+        position: relative;
+        top: 55%;
+        left: 10%;
+        width: 80%;
+        height: 20%;
+        background-color:#742C2C;
+        border-style: none;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        color: #FFFFFF;
+        border: 1px solid rgba(12, 48, 64, 0.22);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, .025);
+    }
+}
+
+@media only screen and (max-width: 746px) {
+    .hp-cards {
+        position: absolute;
+        top: 14em;
+        left: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr;
+        column-gap: 2em;
+        row-gap: 2em;
+        margin-left: 1em;
+        margin-right: 2em;
+        padding-bottom: 3em;
+    }
+
+    .button {
+        position: relative;
+        top: 55%;
+        left: 10%;
+        width: 80%;
+        height: 20%;
+        background-color:#742C2C;
+        border-style: none;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        color: #FFFFFF;
+        border: 1px solid rgba(12, 48, 64, 0.22);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, .025);
+    }
+}
+
+  
 
 /* end homepage content */
 
@@ -506,3 +708,45 @@ book-description {
 }
 
 /* end description page */
+
+/* begin profile page */
+
+.profile-header {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.profile-titles {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5em;
+    position: absolute;
+    top: 11em;
+    left: 20em;
+    margin-right: 10em;
+}
+
+.profile-right-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.profile-left {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.profileleftgrid-top {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.profileleftgrid-top-r {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
